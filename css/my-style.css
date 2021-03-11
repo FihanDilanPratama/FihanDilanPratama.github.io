@@ -1,0 +1,25 @@
+body {
+    /* margin-top: -20px; */
+    min-height: 1500px;
+}
+.navbar {
+    background-color: rgb(41, 192, 172) !important;
+}
+#svg-nav {
+    margin-top: -80px;
+}
+@media only screen and (max-width: 768px) {
+    #svg-nav {
+        margin-top: -10px;
+    }
+}
+.jumbotron {
+    /* padding-top: 2rem; */
+    background-color: #e2edff;
+}
+.projects {
+    background-color: #e2edff;
+}
+footer {
+    background-color: rgb(41, 192, 172) !important;
+}
