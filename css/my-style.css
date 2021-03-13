@@ -4,13 +4,14 @@
 #svg-nav {
     margin-top: -80px;
 }
-@media only screen and (max-width: 768px) {
-    #svg-nav {
-        margin-top: -10px;
-    }
-}
 .jumbotron {
     background-color: #e2edff;
+}
+img.rounded-circle {
+    transition: 0.5s;
+}
+img.rounded-circle:hover {
+    box-shadow: 0 0 15px -2px rgba(0,0,0,0.50);
 }
 .projects {
     background-color: #e2edff;
@@ -20,4 +21,10 @@
 }
 footer {
     background-color: rgb(41, 192, 172) !important;
+}
+
+@media only screen and (max-width: 768px) {
+    #svg-nav {
+        margin-top: -10px;
+    }
 }
